@@ -6,8 +6,8 @@ self.addEventListener('install', function (event) {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/styles.css',
-                '/app.js',
+                '/style.css',
+                '/script.js',
                 // Add more files you want to cache
             ]);
         })
