@@ -1,11 +1,11 @@
 {
-    "name": "Sample PWA",
-    "short_name": "PWA",
-    "start_url": "index.html?utm_source=homescreen",
-    "scope": "./",
+    "name": "My Lamp",
+    "short_name": "Lmp",
+    "start_url": "/index.html",
+    "scope": "/",
     "icons": [
         {
-            "src": "./media/desk-lamp.png",
+            "src": "./media/desk-lamp-128.png",
             "sizes": "128x128",
             "type": "image/png"
         }
