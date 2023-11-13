@@ -42,7 +42,7 @@ h6 {
 }
 
 body {
-    background-color: red;
+    /* background-color: red; */
     margin: 0px;
 }
 
@@ -93,7 +93,7 @@ main {
     min-height: 95vh;
     max-width: 600px;
     margin: auto;
-    padding: 50px 30px;
+    padding: 80px 30px;
 
     display: flex;
     flex-direction: column;
@@ -101,9 +101,13 @@ main {
 }
 
 .image {
-    width: 70%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 80%;
     background: radial-gradient(circle at center, var(--current-sun) 0%, rgba(31, 31, 56, 0) 35%, rgba(31, 31, 56, 0) 100%);
-    background-position: -15px -75px;
+    background-position: -35px -105px;
 }
 
 
@@ -183,7 +187,7 @@ main {
     background-color: #1b1b1b;
     border-radius: 10px 10px 0px 0px;
     transform: perspective(10px) rotateX(3deg);
-    padding: 10px 20px;
+    padding: 20px 25px;
 }
 
 #power i {
