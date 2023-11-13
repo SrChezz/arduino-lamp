@@ -48,14 +48,14 @@ body {
 
 .small-title {
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: -10px;
     color: var(--current-color);
 }
 
 .big-title {
     font-weight: 200;
-    font-size: 3.8rem;
+    font-size: 4.5rem;
     margin: -18px;
     color: var(--current-color);
 }
@@ -63,7 +63,7 @@ body {
 .light-text {
     color: white;
     font-weight: 200;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     opacity: .9;
 }
 
@@ -82,6 +82,7 @@ body {
 }
 
 .bold-text {
+    font-size: 1.2;
     font-weight: bold;
     text-shadow: rgb(222, 222, 222) 2px 2px 5px;
 }
@@ -107,7 +108,7 @@ main {
     transform: translate(50%, -50%);
     width: 80%;
     background: radial-gradient(circle at center, var(--current-sun) 0%, rgba(31, 31, 56, 0) 35%, rgba(31, 31, 56, 0) 100%);
-    background-position: -35px -105px;
+    background-position: -35px -85px;
 }
 
 
