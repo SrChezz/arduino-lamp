@@ -4,10 +4,9 @@ self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open('my-cache').then(function (cache) {
             return cache.addAll([
-                '/',
-                '/index.html',
-                '/style.css',
-                '/script.js',
+                'index.html',
+                'style.css',
+                'script.js',
                 // Add more files you want to cache
             ]);
         })
